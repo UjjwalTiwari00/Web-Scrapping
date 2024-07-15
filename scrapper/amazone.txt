@@ -1,0 +1,16 @@
+using python
+
+read amazone.html ans parse it with beautifulsoup
+find all 
+div with div class="a-section aok-relative s-image-fixed-height"
+
+for all the div 
+try find span with class="a-size-medium a-color-base a-text-normal" and store it in name 
+expect Names=""
+try find span with class="a-price-whole" and store it in Prices
+expect prices=""
+try find span with class="a-size-base"  and store it in Reviews
+expect Reviews=""
+
+open an excel file and write name price and reviews
+
